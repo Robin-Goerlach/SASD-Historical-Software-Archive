@@ -1,0 +1,80 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="640" viewBox="0 0 1280 640" role="img" aria-labelledby="title desc">
+<title id="title">SASD Historical Software Archive</title><desc id="desc">Retro computing archive banner with a green phosphor terminal, magnetic tape, floppy disk and a historical timeline.</desc>
+<defs>
+ <linearGradient id="bg" x2="1" y2="1"><stop stop-color="#111e24"/><stop offset="1" stop-color="#081116"/></linearGradient>
+ <radialGradient id="halo"><stop stop-color="#40695a" stop-opacity=".36"/><stop offset="1" stop-color="#18282c" stop-opacity="0"/></radialGradient>
+ <linearGradient id="case" x2=".15" y2="1"><stop stop-color="#d1c5a5"/><stop offset=".52" stop-color="#aca48b"/><stop offset="1" stop-color="#77796e"/></linearGradient>
+ <linearGradient id="screen" x2="0" y2="1"><stop stop-color="#142d24"/><stop offset="1" stop-color="#07170f"/></linearGradient>
+ <linearGradient id="tape" x2="1" y2="1"><stop stop-color="#626b62"/><stop offset="1" stop-color="#252f30"/></linearGradient>
+ <pattern id="grid" width="32" height="32" patternUnits="userSpaceOnUse"><path d="M32 0H0V32" fill="none" stroke="#8ea7a0" stroke-opacity=".075"/></pattern>
+ <pattern id="scan" width="3" height="4" patternUnits="userSpaceOnUse"><path d="M0 1H3" stroke="#06140e" stroke-opacity=".32"/></pattern>
+ <pattern id="vent" width="8" height="8" patternUnits="userSpaceOnUse"><rect width="4" height="8" rx="1" fill="#63685e"/></pattern>
+ <clipPath id="crt"><rect x="827" y="187" width="331" height="221" rx="24"/></clipPath>
+</defs>
+<rect width="1280" height="640" fill="url(#bg)"/><rect width="1280" height="640" fill="url(#grid)"/>
+<ellipse cx="1000" cy="315" rx="350" ry="310" fill="url(#halo)"/>
+<rect x="28" y="28" width="1224" height="584" rx="4" fill="none" stroke="#50625d" stroke-opacity=".6"/>
+<path d="M28 78V28H78M1202 28H1252V78M28 562V612H78M1202 612H1252V562" fill="none" stroke="#c6a76b" stroke-width="2"/>
+<!-- Editorial text -->
+<g font-family="DejaVu Sans Mono, monospace" font-size="14" letter-spacing="2">
+ <rect x="64" y="63" width="9" height="9" fill="#e8bc71"/>
+ <text x="86" y="73" fill="#e8bc71">SASD / DIGITAL PRESERVATION</text>
+ <text x="1216" y="73" fill="#8ca5a0" text-anchor="end">RESEARCH  •  OPEN SOURCE</text>
+</g>
+<path d="M64 93H1216" stroke="#455a55"/>
+<g font-family="DejaVu Sans, sans-serif" font-weight="bold" fill="#f0e9d8">
+ <text x="60" y="184" font-size="70" fill="#e8bc71">SASD</text>
+ <text x="60" y="253" font-size="59" letter-spacing="-1.4">Historical</text>
+ <text x="60" y="320" font-size="59" letter-spacing="-1.4">Software Archive</text>
+</g>
+<rect x="64" y="351" width="63" height="3" fill="#e8bc71"/>
+<g font-family="DejaVu Sans, sans-serif" fill="#becfc5" font-size="23">
+ <text x="64" y="398">Preserving the past.</text>
+ <text x="64" y="430">Reproducing computing history.</text>
+</g>
+<g font-family="DejaVu Sans Mono, monospace" font-size="13.5" fill="#99c4a6">
+ <text x="64" y="483">DISCOVER</text><text x="157" y="483" fill="#c5a66c">→</text><text x="181" y="483">ACQUIRE</text><text x="261" y="483" fill="#c5a66c">→</text><text x="286" y="483">VERIFY</text><text x="357" y="483" fill="#c5a66c">→</text><text x="382" y="483">PRESERVE</text>
+</g>
+<!-- Tape and disk behind terminal -->
+<g transform="translate(699 111) rotate(-12 90 90)">
+ <circle cx="90" cy="90" r="82" fill="#071014" opacity=".8"/><circle cx="90" cy="85" r="80" fill="url(#tape)" stroke="#a7ab93" stroke-width="2"/>
+ <circle cx="90" cy="85" r="68" fill="#242e30" stroke="#89948a"/>
+ <circle cx="90" cy="85" r="54" fill="none" stroke="#8c7655" stroke-width="14"/>
+ <g fill="#6e7c71" stroke="#a1a590" stroke-width="1"><path d="M78 72L57 28Q90 13 123 28L102 72Z"/><path d="M78 72L57 28Q90 13 123 28L102 72Z" transform="rotate(120 90 85)"/><path d="M78 72L57 28Q90 13 123 28L102 72Z" transform="rotate(240 90 85)"/></g>
+ <circle cx="90" cy="85" r="22" fill="#b1a78c" stroke="#363e39" stroke-width="3"/><circle cx="90" cy="85" r="9" fill="#182225"/>
+</g>
+<!-- CRT housing -->
+<ellipse cx="990" cy="512" rx="229" ry="20" fill="#050c10" opacity=".75"/>
+<path d="M811 149L851 124H1165L1208 154V419L1184 447H811Z" fill="#60665b" stroke="#171f21" stroke-width="3"/>
+<rect x="798" y="145" width="391" height="304" rx="22" fill="url(#case)" stroke="#e1d3ae" stroke-width="2"/>
+<rect x="812" y="168" width="361" height="250" rx="30" fill="#353f39" stroke="#757c70" stroke-width="3"/>
+<rect x="827" y="187" width="331" height="221" rx="24" fill="url(#screen)" stroke="#111e19" stroke-width="4"/>
+<g clip-path="url(#crt)">
+ <rect x="827" y="187" width="331" height="221" fill="url(#scan)"/>
+ <path d="M844 202Q987 182 1142 202" fill="none" stroke="#c6e7c3" stroke-opacity=".12" stroke-width="3"/>
+ <g font-family="DejaVu Sans Mono, monospace" font-size="16" fill="#9de9ab">
+  <text x="850" y="225" font-size="13" fill="#76a98b">SASD ARCHIVE  /  CONCEPT</text>
+  <path d="M850 238H1133" stroke="#507c5e" stroke-dasharray="3 4"/>
+  <text x="850" y="265">$ discover history</text>
+  <text x="850" y="294" fill="#b0d9ad">  source code</text>
+  <text x="850" y="317" fill="#b0d9ad">  release artifacts</text>
+  <text x="850" y="340" fill="#b0d9ad">  documentation</text>
+  <text x="850" y="374">$</text><rect x="872" y="360" width="10" height="17" fill="#a9efad"/>
+ </g>
+</g>
+<g fill="#4b5247"><rect x="826" y="428" width="55" height="8" fill="url(#vent)"/><text x="907" y="436" font-size="9" font-family="DejaVu Sans Mono, monospace" letter-spacing="1">HISTORICAL SYSTEMS</text><circle cx="1152" cy="432" r="4" fill="#9cde83" stroke="#525b45"/></g>
+<path d="M929 450H1069L1080 477H914Z" fill="#777b6c" stroke="#353e39" stroke-width="2"/><rect x="874" y="476" width="244" height="16" rx="5" fill="#b3aa90" stroke="#51594f" stroke-width="2"/>
+<!-- Floppy disk foreground -->
+<g transform="translate(692 354) rotate(-10 70 78)">
+ <rect x="0" y="4" width="135" height="142" rx="5" fill="#080e13" opacity=".85"/>
+ <path d="M0 0H117L135 18V140H0Z" fill="#2e454c" stroke="#748b88" stroke-width="2"/>
+ <rect x="29" y="0" width="77" height="51" rx="2" fill="#adb7ad"/><rect x="75" y="6" width="18" height="39" rx="2" fill="#213238"/>
+ <rect x="12" y="65" width="111" height="63" rx="2" fill="#d9cfaf"/><rect x="12" y="65" width="111" height="13" fill="#b89258"/>
+ <g font-family="DejaVu Sans Mono, monospace" fill="#3c4c47"><text x="20" y="94" font-size="12" font-weight="bold">SOURCE</text><text x="20" y="110" font-size="10">ARCHIVE</text><path d="M20 119H112" stroke="#a69e88"/></g>
+</g>
+<!-- Footer -->
+<path d="M64 540H1216" stroke="#455a55"/>
+<g font-family="DejaVu Sans Mono, monospace" font-size="13" letter-spacing="1" fill="#91a9a3">
+ <text x="64" y="579">UNIX / LINUX  •  SOFTWARE ARCHAEOLOGY</text><text x="1216" y="579" text-anchor="end" fill="#e8bc71">PAST → PRESENT → FUTURE</text>
+</g>
+</svg>
